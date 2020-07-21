@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Title is verified successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20508" started-at="2020-07-21T07:12:01Z" finished-at="2020-07-21T07:12:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20508" started-at="2020-07-21T07:12:01Z" finished-at="2020-07-21T07:12:22Z">
+      <class name="com.ECM.testcases.Gmail">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="setUpSuite" is-config="true" duration-ms="18" started-at="2020-07-21T12:42:01Z" finished-at="2020-07-21T12:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="extentReport" is-config="true" duration-ms="334" started-at="2020-07-21T12:42:01Z" finished-at="2020-07-21T12:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="setup" is-config="true" duration-ms="14504" started-at="2020-07-21T12:42:02Z" finished-at="2020-07-21T12:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getLogIn()[pri:1, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="getLogIn" duration-ms="4557" started-at="2020-07-21T12:42:16Z" finished-at="2020-07-21T12:42:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Title is verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLogIn -->
+        <test-method status="PASS" signature="tearDownMetod(org.testng.ITestResult)[pri:0, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="tearDownMetod" is-config="true" duration-ms="219" started-at="2020-07-21T12:42:21Z" finished-at="2020-07-21T12:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLogIn status=SUCCESS method=Gmail.getLogIn()[pri:1, instance:com.ECM.testcases.Gmail@59fa1d9b] output=Title is verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMetod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ECM.testcases.Gmail@59fa1d9b]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-07-21T12:42:21Z" finished-at="2020-07-21T12:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ECM.testcases.Gmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
